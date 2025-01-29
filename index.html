@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CGPA Calculator</h1>
+        <label for="semesters">Enter number of semesters:</label>
+        <input type="number" id="semesters" name="semesters" min="1" max="8" required>
+        <button id="startButton">Start</button>
+
+        <div id="semesterInputs" class="hidden">
+            <h2>Enter SGPA and Credits for Each Semester</h2>
+            <div id="semesterFields"></div>
+            <button id="calculateButton">Calculate CGPA</button>
+        </div>
+
+        <div id="cgpaResult" class="hidden">
+            <h2>Your CGPA: <span id="cgpaValue"></span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
