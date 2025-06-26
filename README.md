@@ -34,10 +34,11 @@ A simple and interactive **CGPA Calculator** built using **HTML, CSS, and JavaSc
 ---
 
 ## 📂 Project Structure
+```
 CGPA_CALCULATOR/
-│
-├── index.html       # Main HTML file
-├── style.css        # CSS file
-└── script.js        # JavaScript file
+├── index.html   → Main HTML file
+├── style.css    → CSS file
+└── script.js    → JavaScript file
+```
 
 
